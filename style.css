@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+#head{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/realfront.png);
+    background-size: cover;
+}
+
+#tails{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/realback.png);
+    background-size: cover;
+}
