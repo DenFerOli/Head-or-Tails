@@ -6,6 +6,12 @@
 h1{
     text-align: center;
     margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#choose-coin{
+    position: relative;
+    left: 525px;
 }
 
 .coin-style{
