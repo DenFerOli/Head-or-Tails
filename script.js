@@ -80,7 +80,9 @@ cara.addEventListener("click", function(){
     }
 
    desabilitarBotao();
-   jogarNovamente();
+   setTimeout(function(){
+    jogarNovamente();
+}, 1000);
 })
 
 var coroa = document.querySelector("#tails");
@@ -97,5 +99,7 @@ coroa.addEventListener("click", function(){
     }
 
    desabilitarBotao();
-   jogarNovamente();
+   setTimeout(function(){
+    jogarNovamente();
+}, 1000);
 })
