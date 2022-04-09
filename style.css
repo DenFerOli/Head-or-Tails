@@ -68,10 +68,22 @@ h2{
 
 #vitoria{
     color: rgb(238, 255, 0);
+    text-align: center;
 }
 
 #derrota{
     color: red;
+    text-align: center;
+}
+
+#cara{
+    position: relative;
+    left: 580px;
+}
+
+#coroa{
+    position: relative;
+    left: 580px;
 }
 
 #playAgain{
