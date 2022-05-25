@@ -22,7 +22,7 @@ function coroas(){
 function vitoria(){
     var vitoria = document.createElement("h2");
     vitoria.setAttribute("id", "vitoria");
-    var vitoriaTexto = document.createTextNode("Parabens! você venceu!");
+    var vitoriaTexto = document.createTextNode("você venceu!");
     vitoria.appendChild(vitoriaTexto);
     document.body.appendChild(vitoria);
 }
@@ -30,7 +30,7 @@ function vitoria(){
 function derrota(){
     var derrota = document.createElement("h2");
     derrota.setAttribute("id", "derrota");
-    var derrotaTexto = document.createTextNode("Infelizmente! você perdeu!");
+    var derrotaTexto = document.createTextNode("Você perdeu!");
     derrota.appendChild(derrotaTexto);
     document.body.appendChild(derrota);
 }
@@ -82,7 +82,7 @@ cara.addEventListener("click", function(){
    desabilitarBotao();
    setTimeout(function(){
     jogarNovamente();
-}, 1000);
+}, 300);
 })
 
 var coroa = document.querySelector("#tails");
@@ -101,5 +101,5 @@ coroa.addEventListener("click", function(){
    desabilitarBotao();
    setTimeout(function(){
     jogarNovamente();
-}, 1000);
+}, 300);
 })
