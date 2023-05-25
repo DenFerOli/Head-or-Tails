@@ -12,7 +12,6 @@ body{
 }
 
 h1{
-    text-align: center;
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -20,7 +19,6 @@ h1{
 }
 
 h2{
-    text-align: center;
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
