@@ -4,6 +4,10 @@
 }
 
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: black;
 }
 
@@ -12,7 +16,7 @@ h1{
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-    color: rgb(238, 255, 0);
+    color: gold;
 }
 
 h2{
@@ -35,13 +39,13 @@ h2{
     height: 100px;
     background-size: cover;
     cursor: pointer;
-    border: 1px solid rgb(238, 255, 0);
+    border: 1px solid gold;
     background-color: transparent;
     border-radius: 50%;
 }
 
 .coin-style:hover{
-    box-shadow: 0px 0px 5px gold;
+    box-shadow: 0px 0px 10px gold;
     transition: 500ms;
 }
 
@@ -56,19 +60,18 @@ h2{
 
 .coinStyles{
     position: relative;
-    left: 600px;
     margin: 10px;
     width: 100px;
     height: 100px;
     background-size: cover;
-    border: 1px solid rgb(238, 255, 0);
+    border: 1px solid gold;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 0px 0px 15px rgb(238, 255, 0);
+    box-shadow: 0px 0px 15px gold;
 }
 
 #vitoria{
-    color: rgb(238, 255, 0);
+    color: gold;
     text-align: center;
 }
 
@@ -79,31 +82,28 @@ h2{
 
 #cara{
     position: relative;
-    left: 580px;
 }
 
 #coroa{
     position: relative;
-    left: 580px;
 }
 
 #playAgain{
     position: relative;
-    left: 570px;
     padding: 15px;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
-    border: 1px solid rgb(238, 255, 0);
+    border: 1px solid gold;
     background-color: black;
-    color: rgb(238, 255, 0);
+    color: gold;
 }
 
 #playAgain:hover{
-    background-color: rgb(238, 255, 0);
-    box-shadow: 0px 0px 15px rgb(238, 255, 0);
+    background-color: gold;
+    box-shadow: 0px 0px 5px gold;
     color: black;
     cursor: pointer;
-    transition: 500ms;
+    transition: 800ms;
 }
